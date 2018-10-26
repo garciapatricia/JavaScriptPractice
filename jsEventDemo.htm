@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Triggering scripts</title>
+    </head>
+    <body>
+	<!--onmouseout  = allows u to see the message using a moving mouse without clicking but you need to press out to 
+	exit it and it wont give u error message-->
+        <p>What <a href="time.html" onmouseout= "var now = Date(); alert('The time is ' + now)">time</a> is it? </p>
+
+        <p>Here's the rest of the page.</p>
+        
+        <form method="post" action="http://nscctruro.ca/Matt_Redmond/formtest.aspx">
+            <p>
+                <input type="text" id="fname" name="fname" value="Enter First Name" size="20" /><br/>
+                <input type="text" id="lname" name="lname" value="Enter Last Name" size="20" /><br/>
+                <br/>
+                <input type="submit" value="Ok" />
+            </p>
+        </form>
+
+    </body>
+</html>
+
+
